@@ -30,4 +30,20 @@ En el codigo está comentado todo el razonamiento y procedimiento seguido para s
 
 <img width="462" height="624" alt="Captura de pantalla 2026-02-05 a las 11 57 44" src="https://github.com/user-attachments/assets/84c7256f-f0c6-45d6-8702-bcda4f9de73f" />
 
-5ºActualizar un carrito
+5ºActualizar un carrito y comprobar su actualización
+
+<img width="465" height="627" alt="Captura de pantalla 2026-02-05 a las 12 16 30" src="https://github.com/user-attachments/assets/3fe6f0b7-38e9-47d4-911f-2470f5e5d5b3" />
+
+<img width="456" height="580" alt="Captura de pantalla 2026-02-05 a las 12 16 37" src="https://github.com/user-attachments/assets/8c66655b-0c28-460d-957a-8b545376805e" />
+
+6ºBorrar un carrito
+
+<img width="462" height="519" alt="Captura de pantalla 2026-02-05 a las 12 01 57" src="https://github.com/user-attachments/assets/70b24f63-f456-4dd7-9a29-053131f46490" />
+
+# Areas de mejora encotradas durante el testing
+La ruta no comprueba si el id del nuevo carrito cuando vas a actualizar coincide con el de la misma ruta, esto puede llevar a errores (y ha llevado a ello) ej:
+
+<img width="463" height="614" alt="Captura de pantalla 2026-02-05 a las 11 59 13" src="https://github.com/user-attachments/assets/eec12c20-3ad9-4e64-a1c0-9eb40b4535a4" />
+
+No hay excepciones que controlen que los datos se introduzcan de manera correcta.
+
